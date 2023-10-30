@@ -1,0 +1,27 @@
+{
+  "name": "voraes",
+  "displayName": "Voraes",
+  "description": "",
+  "version": "0.4.0",
+  "publisher": "voraes",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Voraes/voraes-vscode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Voraes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Voraes-color-theme.json"
+      }
+    ]
+  }
+}
